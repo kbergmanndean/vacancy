@@ -22,8 +22,23 @@ export const InputSet = styled('div')({
 export const Input = styled('input') ({
     border: '1px solid gray',
     borderRadius: 4,
-    display: 'block'
+    display: 'block',
+    padding:'4px'
 
+})
+
+export const Select = styled('select') ({
+    border: '1px solid gray',
+    borderRadius: 4,
+    display: 'block',
+    padding:'4px'
+
+})
+
+export const SubmitButton = styled('button') ({
+    backgroundColor:"green",
+    borderRadius:'4px',
+    padding:'6px'
 })
 
 
