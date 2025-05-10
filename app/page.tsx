@@ -1,16 +1,14 @@
 'use client'
-import {Form} from "./pages/form/form"
-import {Header} from "./pages/header/header";
+import { Header } from "./pages/header";
+import { Form } from "./pages/form";
+
+
 
 export default function Home () {
   return (
     <div>
       <Header/>
-      <main>
-        <div>
-          <Form/>
-        </div>
-      </main>
+      <Form/>
     </div>
   );
 }

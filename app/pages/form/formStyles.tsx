@@ -38,7 +38,10 @@ export const Select = styled('select') ({
 export const SubmitButton = styled('button') ({
     backgroundColor:"green",
     borderRadius:'4px',
-    padding:'6px'
+    padding:'6px',
+    color:'white',
+    fontWeight:'bold',
+    margin:'20px'
 })
 
 

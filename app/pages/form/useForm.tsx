@@ -2,7 +2,7 @@
 import {useState, ChangeEvent, FormEvent } from "react"
 import {some} from 'lodash'
 
-type Lot = {
+export type Lot = {
     address:string,
     city:string,
     state:string

@@ -1,6 +1,11 @@
 'use client'
-import {HeaderContainer} from './headerStyles'
+import {HeaderContainer, HeaderTitle} from './headerStyles'
+import Link from 'next/link'
 
 export const Header = () => {
-    return (<HeaderContainer><h1>Vacancy</h1></HeaderContainer>)
+    return (<HeaderContainer>
+        <HeaderTitle>Vacancy</HeaderTitle>
+        <Link href="/table">Table</Link>
+        <Link href="/form">Form</Link>
+    </HeaderContainer>)
 }
