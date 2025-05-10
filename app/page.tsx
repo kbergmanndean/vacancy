@@ -1,9 +1,11 @@
+'use client'
 import {Form} from "./pages/form/form"
+import {Header} from "./pages/header/header";
 
 export default function Home () {
   return (
     <div>
-      <header>Vacancy</header>
+      <Header/>
       <main>
         <div>
           <Form/>

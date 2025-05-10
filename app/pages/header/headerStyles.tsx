@@ -2,6 +2,7 @@ import { styled } from '@mui/system';
 
 export const HeaderContainer = styled('header')({
     font:'Helvetica',
-    fontSize:'24px',
-    color:'green'
+    fontSize:'40px',
+    color:'green',
+    padding:'40px'
 })
